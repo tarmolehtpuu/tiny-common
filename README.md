@@ -1,4 +1,4 @@
-# tiny-common ![Static Badge](https://img.shields.io/badge/version-0.0.1-blue)
+# tiny-common ![Static Badge](https://img.shields.io/badge/version-0.0.1-blue) ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Ftarmolehtpuu%2Ffa662c13bf696d7c12a097e2bcca7e12%2Fraw%2F9447d7199e236eb4dc7ca71e0f1dee970b78d7c2%2Ftiny-common-junit-tests.json) ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Ftarmolehtpuu%2Ffa662c13bf696d7c12a097e2bcca7e12%2Fraw%2F9447d7199e236eb4dc7ca71e0f1dee970b78d7c2%2Ftiny-common-jacoco-coverage.json)
 
 Various small helper classes used across projects.
 
