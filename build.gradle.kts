@@ -90,7 +90,7 @@ tasks.jar {
 publishing {
     repositories {
         maven {
-            name = "Repsy"
+            name = "moo"
             url = uri("https://repo.repsy.io/moo/maven")
             credentials {
                 username = project.findProperty("maven.user") as String? ?: System.getenv("MAVEN_USER")
