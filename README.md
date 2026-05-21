@@ -11,7 +11,7 @@ Various small helper classes used across projects.
 <repositories>
     <repository>
         <id>moo</id>
-        <url>https://repsy.io/moo/maven</url>
+        <url>https://repo.repsy.io/moo/maven</url>
     </repository>
 </repositories>
 
@@ -31,7 +31,7 @@ repositories {
     mavenCentral()
     maven {
         name = "moo"
-        url = uri("https://repsy.io.moo/maven")
+        url = uri("https://repo.repsy.io/moo/maven")
     }
 }
 
