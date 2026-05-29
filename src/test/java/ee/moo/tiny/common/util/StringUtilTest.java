@@ -67,6 +67,15 @@ public class StringUtilTest {
     }
 
     @Test
+    public void testSplit() {
+        assertEquals(List.of("foo", "bar"), StringUtil.split("/foo/bar", "/"));
+        assertEquals(List.of("foo", "bar"), StringUtil.split("/foo/bar/", "/"));
+        assertEquals(List.of("foo", "bar"), StringUtil.split("foo/bar", "/"));
+        assertEquals(List.of(), StringUtil.split(null, "/"));
+        assertEquals(List.of("foo"), StringUtil.split("foo", "/"));
+    }
+
+    @Test
     public void testCapitalize() {
         assertNull(StringUtil.capitalize(null));
         assertEquals("", StringUtil.capitalize(""));

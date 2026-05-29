@@ -17,6 +17,7 @@
 package ee.moo.tiny.common.util;
 
 import java.security.SecureRandom;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
@@ -63,6 +64,16 @@ public final class StringUtil {
 
     public static int length(String s) {
         return s == null ? 0 : s.length();
+    }
+
+    public static List<String> split(String string, String regex) {
+        if (string == null) {
+            return List.of();
+        }
+
+        return Arrays.stream(string.split(regex))
+            .filter(s -> !StringUtil.isEmpty(s))
+            .toList();
     }
 
     public static String capitalize(String s) {
