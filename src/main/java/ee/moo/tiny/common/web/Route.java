@@ -13,11 +13,6 @@ public record Route(String controller, String action, Long id) {
     public static Route parse(String method, String path) {
         var parts = StringUtil.split(path, "/");
 
-        System.out.println(parts.size());
-        for (var part : parts) {
-            System.out.printf("part='%s'%n", part);
-        }
-
         if (parts.isEmpty()) {
             return new Route("home", "index", 0L);
         }
